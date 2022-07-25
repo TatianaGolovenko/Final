@@ -476,9 +476,9 @@ align-content: center;
 }
 
 .section-cover7{
-  height: 1200px;
+  height: 950px;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 100px;
   text-align: center;
   align-items: center;
   background-color: #272727;
@@ -510,4 +510,34 @@ align-content: center;
   margin-right: auto;
   justify-content: center;
   align-content: center;
+}
+.btn:hover{
+  /* box-shadow: 4px 4px 0 0 black, 8px 8px 0 0 red; */
+  transition: all .2s ease;
+  background: #D75A47;
+  color: #FFFFFF;
+}
+footer{
+  background-color: #272727;
+  height: 80px;
+}
+.white--link {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  color: white;
+}
+.red--link {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  color: #D75A47;
+}
+
+.links--group {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 28px; */
+  align-items: center;
+  /* margin-left: 40px; */
 }
