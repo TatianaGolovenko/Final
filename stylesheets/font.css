@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Golostextregular";
+	src: url("../fonts/Golostextregular.woff");
+}
+
+@font-face {
+  font-family: "Golostextmedium";
+	src: url("../fonts/Golostextmedium.woff");
+}
+
+@font-face {
+  font-family: "Golostextdemibold";
+	src: url("../fonts/Golostextdemibold.woff");
+}
+
+@font-face {
+  font-family: "Golostextblack";
+	src: url("../fonts/Golostextblack.woff");
+}

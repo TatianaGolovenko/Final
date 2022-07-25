@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Homely">
+    <meta property="og:url" content="{https://tatianagolovenko.github.io/Homely}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homely</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <!-- <div class="navbar">
+    <a href="/index.html"><img src="images/logo-homely.svg" alt=""></a>
+    <a href="#">О нас</a>
+    <a href="#">Сервис</a>
+    <a href="#">Готовящие</a>
+    </div> -->
+
+      <div class="menu">
+        <img src="images/logo-homely1.svg" alt="logo-homely">
+        <ul class="navbar_menu">
+          <a href="#benefit-1"class="benefit-1">О нас</a>
+          <a href="#benefit-2"class="benefit-2">Сервис</a>
+          <a href="#benefit-3"class="benefit-3">Кулинары</a>
+        </ul>
+      </div>
+
+  <div class="landing-wrapper">
+    <section class="section-cover" id="cover">
+      <div class="section-cover--left">
+      <div class="head-title">
+        <h1>Открывайте<br>новых поваров<br>в своем районе</h1>
+        <h4>Приложение для заказа домашней еды <br>у людей, любящих готовить, с заменой<br>необходимых ингредиентов</h4>
+        <a class="btn btn-white"href="">Попробовать</a>
+
+      </div>
+
+      </div><!--
+      --><div class="section-cover--right">
+        <img src="./images/Union.png" alt="">
+      </div>
+    </section>
+    <section class="section-cover2" id="cover">
+      <div class="section-center1">
+        <div class="section-center2">
+          <div class="section2">
+            <img src="./images/shaperound.png" alt="">
+            <h2>Найдите своего кулинара...<br>Или станьте им сами</h2>
+            <div class="move--section">
+              <div class="first--line">
+                <div class="question--frame">
+                 завтрак
+                </div>
+                <div class="question--frame">
+                 супы
+                </div>
+                <div class="question--frame">
+                 салаты
+                </div>
+                <div class="question--frame">
+                 мясо
+                </div>
+                <div class="question--frame">
+                 паста
+                </div>
+                <div class="question--frame">
+                 сладкое и выпечка
+                </div>
+
+              </div>
+              <div class="second--line">
+                <div class="question--frame">
+                 итальянская
+                </div>
+                <div class="question--frame">
+                 азиатская
+                </div>
+                <div class="question--frame">
+                домашняя
+                </div>
+                <div class="question--frame">
+                греческая
+                </div>
+                <div class="question--frame">
+                фитнес-еда
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="section-cover3" id="cover">
+    <div class="section3">
+    <div class="msg msg_q hidden_msg" id="msg1">Привет!</div>
+    <div class="msg msg_q hidden_msg" id="msg2">Можете убрать орехи <br>из позиции?</div>
+    <div class="msg msg_a hidden_msg" id="msg3">Привет! Конечно :)</div>
+    <div class="msg msg_a hidden_msg" id="msg4">Заказ будет готов <br>через пол часа</div>
+    <div class="msg msg_a hidden_msg" id="msg5">🍽🍳🥗</div>
+    <div class="btn-center">
+      <a class="btn btn-red"href="">Сделать заказ</a>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      let line = $('.section3').offset();
+      let line_triger = line.top - ($(window).height() / 2);
+
+      $(window).on('scroll', function() {
+        let top = $(window).scrollTop();
+        if (top > line_triger) {
+          $('#msg1').removeClass('hidden_msg');
+        }
+        else {
+          $('#msg1').addClass('hidden_msg');
+        }
+        if (top > (line_triger + 100)) {
+          $('#msg2').removeClass('hidden_msg');
+        }
+        else {
+          $('#msg2').addClass('hidden_msg');
+        }
+        if (top > (line_triger + 200)) {
+          $('#msg3').removeClass('hidden_msg');
+        }
+        else {
+          $('#msg3').addClass('hidden_msg');
+        }
+        if (top > (line_triger + 300)) {
+          $('#msg4').removeClass('hidden_msg');
+        }
+        else {
+          $('#msg4').addClass('hidden_msg');
+        }
+        if (top > (line_triger + 400)) {
+          $('#msg5').removeClass('hidden_msg');
+        }
+        else {
+          $('#msg5').addClass('hidden_msg');
+        }
+
+      })
+    });
+
+  </script>
+</section>
+<section class="section-cover4" id="cover">
+  <div class="section-cover--left4">
+  <div class="title-section4">
+    <h3>Находите<br>проверенных кулинаров<br>по предпочтениям</h3>
+    <div class="left_pic">
+      <img src="./images/left_pic.png" alt="">
+    </div>
+  </div>
+  </div><!--
+  --><div class="section-cover--right4">
+     <h3>Заменяйте ингредиенты<br> для особого заказа</h3>
+    <img src="./images/right-pic.png" alt="">
+  </div>
+</section>
+    <section class="section-cover5" id="cover">
+      <div class="section-cover--left5">
+        <img src="./images/sec5_left.png" alt="">
+      </div><!--
+      --><div class="section-cover--right5">
+      <div class="title1_sec5">
+        <div class="title1_sec5">
+          <h5>У еды есть автор</h5>
+          <p>Наши повара готовят домашнюю еду на каждый <br>день. Это вкусные завтраки, обеды и ужины.<br>Вы всегда знаете кто приготовил конкретное блюдо</p>
+          <div class="line"> </div>
+          <h5>Подборки блюд</h5>
+          <p>Пробуйте новые блюда ближайших поваров<br> из наших подборок</p>
+          <div class="line"> </div>
+          <h5>Чат с поваром</h5>
+          <p>Люди любят людей и личный контакт с человеком<br>позволяет построить доверие между поваром<br>и клиентом</p>
+          <div class="line"> </div>
+          <h5>Быстрая доставка</h5>
+          <p>Наши повара расположены недалеко от вашего<br>дома, поэтому курьеры стараются доставить еду<br>за 30 минут</p>
+        </div>
+
+      </div>
+    </section>
+    <section class="section-cover6" id="cover">
+        <h2>Отслеживайте любимых<br>поваров в сторис</h2>
+        <h6>Подписывайтесь на людей, любящих и умеющих<br>готовить, и рекомендуйте их своим друзьям </h6>
+        <img src="./images/pic6.png" alt="">
+        <div class="btn-white2">
+          <a class="btn btn-red"href="">Сделать заказ</a>
+        </div>
+    </section>
+
+
+
+    <section class="section-cover7" id="cover">
+        <img src="./images/shaperound.png" alt="">
+        <h2>Закажите<br>что-нибудь вкусное</h2>
+        <div class="pic_qr">
+          <img src="./images/QR.png" alt="">
+        </div>
+    </section>
+
+  </div>
+
+
+
+
+
+
+  </body>
+</html>
